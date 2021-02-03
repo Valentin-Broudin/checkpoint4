@@ -1,7 +1,7 @@
 import "./Accueil.css";
 import Navbar from "./Navbar";
 
-const Accueil = () =>{
+const Accueil = () => {
     return (
         <div className="Accueil">
           <Navbar />

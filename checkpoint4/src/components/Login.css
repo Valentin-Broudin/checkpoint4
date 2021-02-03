@@ -1,70 +1,64 @@
 .allLogin {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    height: 100vh;
 }
-
 
 .boxRegister {
+    width: 25%;
+    height: 100%;
     display: flex;
-    width: 30%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
-
-.boxLogin {
-    display: flex;
-    width: 30%;
-}
-
 
 .register {
     display: flex;
+    height: 70%;
     flex-direction: column;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 25%;
 }
 
-.register input {
+.boxLogin {
+    width: 25%;
+    height: 50%;
     display: flex;
-    width: 70%;
-    height: 8vh;
-    margin: 5%;
-    border: none;
-    background: #C4C4C4;
-    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .login {
     display: flex;
+    height: 70%;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 25%;
+}
+
+.allLogin input {
     width: 100%;
+    padding: 12%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #c4c4c4;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
-.login input {
-    display: flex;
-    width: 70%;
-    height: 8vh;
-    margin: 5%;
+.allLogin button {
+    padding: 10%;
+    outline: none;
     border: none;
-    background: #C4C4C4;
-    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-}
-
-
-.bttn1 {
-    width: 40%;
-    border: none;
-    background: #C4C4C4;
-    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-}
-
-.bttn2 {
-    width: 40%;
-    border: none;
-    background: #C4C4C4;
-    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+    background-color: #c4c4c4;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }

@@ -1,0 +1,29 @@
+.SujetsRoyaux {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titreSujets {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tableSujets {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    border-radius: 15px;
+    background-color: #B49F6B;
+    padding: 1%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.25);
+}

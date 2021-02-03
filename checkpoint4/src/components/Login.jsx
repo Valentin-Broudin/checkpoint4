@@ -5,24 +5,20 @@ const Login = () =>{
         <div className="allLogin">
             <div className="boxRegister">
                 <form className="register">
-                    <input></input>
-                    <input></input>
-                    <input></input>
-                    <input></input>
-                    <input></input>
+                    <input placeholder="Nom"/>
+                    <input placeholder="Prénom"/>
+                    <input placeholder="Mail"/>
+                    <input placeholder="Mot de passe"/>
+                    <input placeholder="Confirmer Mot de passe"/>
                 </form>
-                <div className="registerBttn">
-                    <div className="bttn1">Ok</div>
-                </div>
+                <button className="bttn1">Ok</button>
             </div>
             <div className="boxLogin">
                 <form className="login">
-                    <input></input>
-                    <input></input>
+                    <input placeholder="Mail"/>
+                    <input placeholder="Mot de passe"/>
                 </form>
-                <div classname="loginBttn">
-                    <div className="bttn2">Ok</div>
-                </div>
+                <button className="bttn2">Ok</button>
             </div>
         </div>
     )
