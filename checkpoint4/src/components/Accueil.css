@@ -1,0 +1,30 @@
+.Accueil {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titre {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.historyBox {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #C4C4C4;
+    padding: 3%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.25);
+}

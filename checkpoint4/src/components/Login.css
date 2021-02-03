@@ -1,0 +1,70 @@
+.allLogin {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.boxRegister {
+    display: flex;
+    width: 30%;
+}
+
+.boxLogin {
+    display: flex;
+    width: 30%;
+}
+
+
+.register {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.register input {
+    display: flex;
+    width: 70%;
+    height: 8vh;
+    margin: 5%;
+    border: none;
+    background: #C4C4C4;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    display: flex;
+    width: 70%;
+    height: 8vh;
+    margin: 5%;
+    border: none;
+    background: #C4C4C4;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+
+.bttn1 {
+    width: 40%;
+    border: none;
+    background: #C4C4C4;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.bttn2 {
+    width: 40%;
+    border: none;
+    background: #C4C4C4;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}

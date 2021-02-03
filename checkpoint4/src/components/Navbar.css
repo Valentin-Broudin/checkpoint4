@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #CCBC68;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.25);
+  }
+
+.liste {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.items {
+    list-style-type: none;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(20, 20, 20);
+}
+
+.Link {
+    text-decoration: none;
+}
