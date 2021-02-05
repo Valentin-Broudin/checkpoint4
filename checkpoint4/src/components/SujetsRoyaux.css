@@ -19,11 +19,30 @@
 
 .tableSujets {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 90%;
     border-radius: 15px;
     background-color: #B49F6B;
     padding: 1%;
     margin: 5%;
     box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.25);
+}
+
+.lineSujets {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #484848;
+    padding: 1%;
+    margin-bottom: 1%;
+    color: aliceblue;
+}
+
+.lineSujets img {
+    display: flex;
+    width: 10%;
+    border-radius: 15px;
 }

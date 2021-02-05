@@ -11,9 +11,9 @@ const FamilleRoyale = () =>{
           <Navbar />
           <div className="titreRoyaleFamilie">Famille Royale</div>
           <div className="boxFamilie">
-            <img src= { King } alt="" className="boxKing"></img>
-            <img src= { Daughter } alt="" className="boxDaughter"></img>
-            <img src= { Queen } alt="" className="boxQueen"></img>
+            <img src= { King } alt="Roi de Colchis" className="boxKing"></img>
+            <img src= { Daughter } alt="Princesse de Colchis" className="boxDaughter"></img>
+            <img src= { Queen } alt="Reine de Colchis" className="boxQueen"></img>
           </div>
         </div>
     )

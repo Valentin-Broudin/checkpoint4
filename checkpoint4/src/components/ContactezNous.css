@@ -8,3 +8,11 @@
     font-weight: bold;
     font-size: 30px;
 }
+
+.contactUsInput {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
